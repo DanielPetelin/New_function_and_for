@@ -15,4 +15,5 @@ console.log(sum);
 var pro = 0;
 
 for (var i = 0; i <= 50; i++) {
+    pro *= i; 
 };
