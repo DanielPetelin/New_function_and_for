@@ -31,4 +31,8 @@ function toNum(arr) {
     for (var i = 0; i < arr.length; i++) {
         arr[i] = parseFloat(arr[i]);
     }
+    return arr;
 }
+
+//Ввод функции.
+console.log(toNum(size)); 
