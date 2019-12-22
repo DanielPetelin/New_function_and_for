@@ -25,3 +25,10 @@ console.log(pro);
 //Задача 3.
 //Создадим массив.
 var size = ['42px','51pt','293em','-23px', '13%'];
+
+//Создадим функцию, которая будет сортировать массив size.
+function toNum(arr) {
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = parseFloat(arr[i]);
+    }
+}
