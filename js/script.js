@@ -31,6 +31,7 @@ function toNum(arr) {
     var out = [];
     for (var i = 0; i < arr.length; i++) {
         arr[i] = parseFloat(arr[i]);
+        if (arr[i] >= 0) out.push(arr[i]); 
     }
     return arr;
 }
