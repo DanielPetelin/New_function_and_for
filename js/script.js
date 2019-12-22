@@ -33,9 +33,12 @@ function toNum(arr) {
         arr[i] = parseFloat(arr[i]);
         //Сортировка отрицательных чисел.
         if (arr[i] >= 0) out.push(arr[i]); 
-    }
+    };
     return out;
-}
+};
+out.sort(function(a, b) {
+
+});
 
 //Ввод функции.
 console.log(toNum(size)); 
