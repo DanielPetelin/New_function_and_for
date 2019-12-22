@@ -9,3 +9,6 @@ var sum = 0;
 for (var i = 0; i <= 100; i++) {
     sum += numbers[i];
 }
+
+//Выведем в консоль ответ.
+console.log(sum);
