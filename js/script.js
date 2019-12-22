@@ -34,11 +34,12 @@ function toNum(arr) {
         //Сортировка отрицательных чисел.
         if (arr[i] >= 0) out.push(arr[i]); 
     };
+    out.sort(function(a, b) {
+        return a - b;
+    });
     return out;
 };
-out.sort(function(a, b) {
 
-});
 
 //Ввод функции.
 console.log(toNum(size)); 
